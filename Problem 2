@@ -1,0 +1,27 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+
+int main()
+{ 
+	int mass, density;
+	float objVolume;
+	char first;
+
+	
+
+	cout << "Enter Mass in grams" << endl;
+	cin >> mass ;
+	cout << "Enter Density in grams per cubic centimeter" << endl;
+	cin >> density ;
+
+	cout << "Volume of the Object" << mass / density << endl;
+
+	_getch();
+	return 0;
+
+}
+
+
